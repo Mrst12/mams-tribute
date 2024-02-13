@@ -17,7 +17,9 @@ A tribute page for my late mother in law.
 - possible font colours
 
 ![#240046](./assets/design/mams-text.jpg)
+
 ![#27187E](./assets/design/mams-text1.jpg)
+
 ![#231942](./assets/design/mams-text2.jpg)
 
 ### Wireframes
