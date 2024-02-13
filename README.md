@@ -4,6 +4,7 @@ A tribute page for my late mother in law.
 ## CONTENTS
 - [Design](#design)
     - [Colour scheme](#colour-scheme)
+    - [typography](#typography)
 - [Wireframes](#wireframes)
 
 
@@ -22,9 +23,13 @@ A tribute page for my late mother in law.
 
 ![#231942](./assets/design/mams-text2.jpg)
 
+- #### Typography
+
+![font for heading](./assets/design/mam-font.jpg)
+
 ### Wireframes
 
-[desktop wireframe](./assets/wireframes/mam-desktop.png)
+![desktop wireframe](./assets/wireframes/mam-desktop.png)
 
-[mobile wireframe](./assets/wireframes/mam-mobile.png)
+![mobile wireframe](./assets/wireframes/mam-mobile.png)
 
