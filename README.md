@@ -7,5 +7,6 @@ A tribute page for my late mother in law.
 ## Wireframes
 
 [desktop wireframe](./assets/wireframes/mam-desktop.png)
+
 [mobile wireframe](./assets/wireframes/mam-mobile.png)
 
