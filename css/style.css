@@ -544,9 +544,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-green-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
+.font-title {
+  font-family: Luxurious Roman;
 }
 
 .text-3xl {
