@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         title: ["Luxurious Roman"],
+      },
+      colors: {
+        background: "#FFF0F3",
       }
     },
   },
