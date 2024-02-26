@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
     <title>Mams tribute</title>
 </head>
-<body>
-    <h1 class="text-3xl font-title underline bg-background">
-    Hello world!
-  </h1>
+<body class="bg-background">
+    
+  <header class="header flex justify-between px-5 py-2 font-serif">
+    <a href="/" class="logo text-4xl font-bold">Barbara</a>
+
+    <nav class="nav absolute flex flex-col shadow-md w-[50%] h-full right-0 rounded-md bg-white md:bg-background px-4 middle:static md:h-auto md:w-auto md:flex-row md:shadow-none duration-500">
+      <button class="close-nav relative top-0 right-0 text-right text-3xl md:hidden">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <a href="#" class="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400 text-blue-400 font-bold ">Home</a>
+      <a href="#" class="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400">Bio</a>
+      <a href="#" class="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400">Images</a>
+    </nav>
+
+    <button class="show-nav text-3xl cursor-pointer">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <script src="./script.js"></script>
 </body>
 </html>
