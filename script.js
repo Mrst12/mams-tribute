@@ -1,7 +1,3 @@
-const showNav = document.querySelector(".show-nav");
-const closeNav = document.querySelector(".close-nav");
-const nav = document.querySelector(".nav");
-
 let images = [
     "https://res.cloudinary.com/mrst12/image/upload/v1710335798/mams%20tribute/mam6_rzujcb.jpg",
     "https://res.cloudinary.com/mrst12/image/upload/v1710335798/mams%20tribute/mam7_jmt4zk.jpg",
@@ -34,16 +30,4 @@ function prev() {
     slider.src = images[num];
 }
 
-closeNav.addEventListener("click", () => {
-    nav.classList.remove("right-0")
-    nav.classList.add("right-[-50%]");
-    nav.classList.add("bg-background")
-})
-
-showNav.addEventListener("click", () => {
-    nav.classList.add("right-0")
-    nav.classList.remove("right-[-50%]");
-    nav.classList.remove("bg-background")
-    
-})
 
