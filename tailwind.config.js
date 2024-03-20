@@ -8,6 +8,7 @@ module.exports = {
       },
       colors: {
         background: "#FFF0F3",
+        navbar: "rgb(247 213 219)",
       }
     },
   },

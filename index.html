@@ -20,46 +20,21 @@
     <title>Mams tribute</title>
   </head>
   <body class="bg-background">
-    <header class="header flex justify-between px-5 py-2 font-serif">
-      <a href="/" class="logo text-4xl font-bold">
-        <img
-          src="https://res.cloudinary.com/mrst12/image/upload/v1633290261/mams%20tribute/mum_s_photo_tribute_page_euburj.jpg"
-          alt="mums picture"
-          height="50px"
-          width="50px"
-          class="rounded-full"
-      /></a>
-
-      <nav
-        class="nav absolute flex flex-col shadow-md w-[50%] h-full right-0 rounded-md bg-white md:bg-background px-4 middle:static md:h-auto md:w-auto md:flex-row md:shadow-none duration-500"
-      >
-        <button
-          class="close-nav relative top-0 right-0 text-right text-3xl md:hidden"
-        >
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-
-        <a
-          href="#hero"
-          class="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400 text-blue-400 font-bold"
-          >Home</a
-        >
-        <a
-          href="#bio"
-          class="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400"
-          >Bio</a
-        >
-        <a
-          href="#images"
-          class="nav-link text-2xl mb-2 md:mr-4 hover:text-blue-400"
-          >Images</a
-        >
-      </nav>
-
-      <button class="show-nav text-3xl cursor-pointer">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    </header>
+    <nav class="bg-navbar">
+      <div class="flex container mx-auto md:justify-center px-2 py-6">
+        <ul class="sm:self-center text-xl md:text-2xl justify-self-end">
+          <li class="sm:inline-block">
+            <a href="#hero" class="p-3">Home</a>
+          </li>
+          <li class="sm:inline-block">
+            <a href="#bio" class="p-3">Bio</a>
+          </li>
+          <li class="sm:inline-block">
+            <a href="#images" class="p-3">Images</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <main>
       <section id="hero" class="font-title text-3xl md:text-4xl text-center">
         <!-- top hero image -->
