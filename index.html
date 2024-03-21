@@ -107,53 +107,27 @@
               <button
                 id="prevBtn"
                 onclick="prev()"
-                class="bg-white p-3 rounded-full bg-opacity-80 shadow-lg"
+                class="h-10 w-10 md:w-16 md:h-16 rounded-full drop-shadow-md bg-navbar font-bold text-black text-4xl"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
-                  />
-                </svg>
+                &larr;
               </button>
               <button
                 id="nextBtn"
                 onclick="next()"
-                class="bg-white p-3 rounded-full bg-opacity-80 shadow-lg"
+                class="h-10 w-10 md:w-16 md:h-16 rounded-full drop-shadow-md bg-navbar font-bold text-black text-4xl"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
+                &rarr;
               </button>
             </div>
           </div>
-          <div class="h-screen">
-            <img
-              class="mx-auto my-auto p-6 object-scale-down max-h-full"
-              id="slider"
-              src="./assets/images/mam5_kipmff.jpg"
-              alt=""
-            />
-          </div>
+        </div>
+        <div class="h-screen">
+          <img
+            class="mx-auto my-auto p-6 object-scale-down max-h-full"
+            id="slider"
+            src="./assets/images/mam5_kipmff.jpg"
+            alt="mams memories"
+          />
         </div>
       </section>
       <section>
@@ -166,7 +140,7 @@
       id="to-top-button"
       onclick="goToTop()"
       title="Go To Top"
-      class="hidden fixed z-90 bottom-8 right-12 border-0 w-16 h-16 rounded-full drop-shadow-md bg-navbar font-bold text-black text-4xl"
+      class="hidden fixed z-90 bottom-6 right-1 md:bottom-8 md:right-12 border-0 w-10 h-10 md:w-16 md:h-16 rounded-full drop-shadow-md bg-navbar font-bold text-black text-4xl"
     >
       &uarr;
     </button>
