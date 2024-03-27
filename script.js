@@ -8,7 +8,11 @@ let images = [
     "./assets/images/mam7_jmt4zk.jpg",
     "./assets/images/mam8_ycuoat.jpg",
     "./assets/images/mam9new_nvvdj1.jpg",
-    "./assets/images/mam_bo0jy2.jpg"
+    "./assets/images/mam_bo0jy2.jpg",
+    "./assets/images/mam-dawn.jfif",
+    "./assets/images/mam-dawn1.jfif",
+    "./assets/images/mam-dawn2.jfif",
+    "./assets/images/mam-dawn3.jfif"
 ]
 let num = 0;
 
