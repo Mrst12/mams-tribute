@@ -1,4 +1,5 @@
 let images = [
+    "./assets/images/mam-start.jpg",
     "./assets/images/mam1_dfmg1o.jpg",
     "./assets/images/mam2_p9wvbw.jpg",
     "./assets/images/mam3_jmn60l.jpg",
@@ -12,7 +13,8 @@ let images = [
     "./assets/images/mam-dawn.jfif",
     "./assets/images/mam-dawn1.jfif",
     "./assets/images/mam-dawn2.jfif",
-    "./assets/images/mam-dawn3.jfif"
+    "./assets/images/mam-dawn3.jfif",
+    "./assets/images/mam-follow.jpg"
 ]
 let num = 0;
 
